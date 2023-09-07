@@ -120,24 +120,3 @@ a.no-underline:hover {
     padding: 20px 20px;
   }
 }
-
-/* 视频容器样式 */
-.video-container {
-  position: relative;
-  padding: 56.25% 0 0 0;
-}
-
-/* 视频样式 */
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1; /* 视频位于导航栏下方 */
-}
-
-/* 页面内容样式 */
-.content {
-  margin-top: 100px; /* 确保页面内容不被导航栏遮挡 */
-}
